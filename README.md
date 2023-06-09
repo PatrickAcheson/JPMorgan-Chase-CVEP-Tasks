@@ -25,6 +25,7 @@
 <p>The initial stage involved unzipping and reading a dataset (enron1.zip) into a Pandas dataframe. The dataset, containing both 'spam' and 'ham' (non-spam) emails, was then divided into separate dataframes based on the category and concatenated into a single dataframe for further processing.</p>
 <h2>2. Data Preprocessing</h2>
 <p>The next phase included preprocessing of the email text to remove all non-alphabet characters and convert the remaining text to lowercase. This ensured that the machine learning model treated similar words with different cases as the same, thereby aiding in the accurate prediction of spam emails.</p>
+![image](https://github.com/PatrickAcheson/JPMorgan-Chase-CVEP-Tasks/assets/90014630/f79cf754-33d8-46f8-a45f-2ca9b0359d4b)
 <h2>3. Model Training and Validation</h2>
 <p>After preprocessing, I implemented a Logistic Regression model for the spam detection task. The CountVectorizer was used to convert the email text into numerical vectors suitable for machine learning. The dataset was split into training and testing sets, and the model was trained and validated using these sets. Model performance was evaluated using accuracy, confusion matrix, and a detailed classification report.</p>
 ![image](https://github.com/PatrickAcheson/JPMorgan-Chase-CVEP-Tasks/assets/90014630/47435cdc-81d5-4206-99f6-42b3fb048e87)
