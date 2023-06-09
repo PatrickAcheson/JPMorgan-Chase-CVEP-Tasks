@@ -19,7 +19,7 @@
 
 <p>Through this project, I was able to deepen my understanding of Python, Pandas, and data visualization tools, and their use in analyzing data for cybersecurity purposes within financial services. The task highlighted the critical role of data in ensuring secure financial systems and offered valuable hands-on exposure to real-world cybersecurity issues.</p>
 <br>
-<h2>Task2 - Fraud Detection</h2>
+<h2>Task2 - Spam Detection</h2>
 <p>As an integral part of the AI and Machine Learning Virtual Experience Program, I was tasked with a stimulating <strong>Email Spam Detection</strong> project. I was given a rough guide of what I was to impliment, this was great as I have little experience using sklearn. The following illustrates my approach and the key aspects of the project:</p>
 <h2>1. Dataset Acquisition and Processing</h2>
 <p>The initial stage involved unzipping and reading a dataset (enron1.zip) into a Pandas dataframe. The dataset, containing both 'spam' and 'ham' (non-spam) emails, was then divided into separate dataframes based on the category and concatenated into a single dataframe for further processing.</p>
